@@ -92,6 +92,8 @@ nav {
   min-height: 8vh;
   background-color: #5d4954;
   font-family: 'Poppins', sans-serif;
+  position: sticky;
+  top: 0;
 }
 
 .logo {
@@ -174,7 +176,7 @@ nav {
 
   to {
     opacity: 1;
-    transform: 0;
+    transform: translateX(0);
   }
 }
 

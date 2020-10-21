@@ -11,12 +11,12 @@ const navSlide = () => {
     navLinks.forEach((link, index) => {
       if(link.style.animation) {
         link.style.animation = ""
-      }else {
+      } else {
         link.style.animation = `navLinkFade 0.5s easeforwards ${index/7 + 1.5}`
     }
   });
   //Burger Animation
   burger.classList.toggle("toggle");
-  });
+});
 }
 navSlide();
